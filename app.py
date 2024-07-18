@@ -1,12 +1,12 @@
 #flask application
 
-from flask import flask
+from flask import Flask
 import os 
-app = flask(_name_)
+app = Flask(__name__)
 
 @app.route('/', methods = ['get'])
 
 def home():
-  return ("Welcome to Virtual Cloud Computing")
-if _name_== "_main_":
- app.run(debug=true,host="0.0.0.0", port = 5000)
+  return ("Hello welcome to VCC by G23AI2093")
+if __name__== "__main__":
+ app.run(debug=True,host="0.0.0.0", port = 5000)
