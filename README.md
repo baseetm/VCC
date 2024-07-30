@@ -5,7 +5,7 @@ Overview
 This repository contains a sample web application built using Flask and deployed in a Docker container.
 
 Application Functionality
-The application is a simple Flask web server that displays "------ " when accessed at the root URL.
+The application is a simple Flask web server that displays "Hello welcome to VCC by G23AI2093" when accessed at the root URL.
 
 Steps to Deploy
 Set Up a Project Directory Create a new directory for your project and navigate into it.
